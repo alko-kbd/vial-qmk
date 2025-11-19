@@ -1,7 +1,18 @@
 VIA_ENABLE          = yes
 VIAL_ENABLE         = yes
-LTO_ENABLE          = yes
-MEDIA_KEY_ENABLE    = yes
-CONSUMER_ENABLE     = yes
+LTO_ENABLE          = no
+
+RGBLIGHT_ENABLE     = no
+RGB_MATRIX_ENABLE   = yes # Can't have RGBLIGHT and RGB_MATRIX at the same time.
+VIALRGB_ENABLE      = yes
+MOUSEKEY_ENABLE     = yes
+OLED_ENABLE         = no
+OLED_DRIVER         = SSD1306
+EXTRAKEY_ENABLE     = yes
 COMBO_ENABLE        = yes
 
+QMK_SETTINGS        = yes
+
+#CAPS_WORD_ENABLE = yes
+#LAYER_LOCK_ENABLE = yes
+#REPEAT_KEY_ENABLE = yes

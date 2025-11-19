@@ -23,6 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VIAL_UNLOCK_COMBO_COLS {0, 1}
 
 //#define DYNAMIC_KEYMAP_LAYER_COUNT 6
+//#define USB_WAIT_FOR_ENUMERATION 1
 
 // For master half only when MASTER_LEFT/MASTER_RIGHT using
 //#define WAIT_FOR_USB

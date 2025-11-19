@@ -5,18 +5,19 @@
     "usb": {
         "vid": "0x4653",
         "pid": "0x0002",
+        "suspend_wakeup_delay": 200,
         "device_version": "2.0.0"
     },
     "processor": "RP2040",
     "bootloader": "rp2040",
     "features": {
-        "bootmagic": false,
-        "extrakey": false,
-        "mousekey": false,
+        "bootmagic": true,
+        "extrakey": true,
         "nkro": false,
         "oled": false,
         "rgblight": false,
         "rgb_matrix": false,
+        "mousekey": true,
         "encoder": false
     },
     "diode_direction": "COL2ROW",
@@ -25,7 +26,7 @@
         "rows": ["GP4", "GP5", "GP6", "GP7"]
     },
     "bootmagic": {
-        "enabled": false,
+        "enabled": true,
         "matrix": [ 0, 1 ]
     },
     "split": {
@@ -37,8 +38,7 @@
             "pin": "GP8"
         },
         "serial": {
-            "driver": "vendor",
-            "pin": "GP1"
+            "driver": "vendor"
         },
         "transport": {
             "sync": {
@@ -112,6 +112,24 @@
         "driver": "vendor",
         "pin": "GP0"
     },
+    "rgblight": {
+        "led_count": 60,
+        "split": true,
+        "split_count": [30, 30],
+        "max_brightness": 120,
+        "animations": {
+            "alternating": true,
+            "breathing": true,
+            "christmas": true,
+            "knight": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "rgb_test": true,
+            "snake": true,
+            "static_gradient": true,
+            "twinkle": true
+        }
+    },
     "rgb_matrix": {
         "animations": {
             "alphas_mods": true,
@@ -159,5 +177,5 @@
             "solid_multisplash": true
         },
         "sleep": true
-    }
+    },
 }

@@ -32,9 +32,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [1] = LAYOUT(
   //,-----------------------------------------------------.    ,-----------------------------------------------------.
-       KC_ESC,KC_GRAVE, KC_LPRN, KC_RPRN, KC_PLUS,KC_MINUS,         KC_7,    KC_8,    KC_9,    KC_0,  KC_INS,  KC_DEL,
+       KC_ESC,KC_GRAVE, KC_LPRN, KC_RPRN, KC_DQUO,KC_SLASH,         KC_7,    KC_8,    KC_9,    KC_0,  KC_INS,  KC_DEL,
   //|--------+--------+--------+--------+--------+--------|    |--------+--------+--------+--------+--------+--------|
-       KC_TAB, XXXXXXX, KC_LBRC, KC_RBRC,KC_DQUO, KC_SLASH,         KC_4,    KC_5,    KC_6,KC_KP_DOT,KC_UNDS, KC_BSLS,
+       KC_TAB, XXXXXXX, KC_LBRC, KC_RBRC, KC_PLUS,KC_MINUS,         KC_4,    KC_5,    KC_6,KC_KP_DOT,KC_UNDS, KC_BSLS,
   //|--------+--------+--------+--------+--------+--------|    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, KC_LCBR, KC_RCBR,   KC_LT,   KC_GT,         KC_1,    KC_2,    KC_3,KC_KP_EQUAL,KC_SLSH,KC_RSFT,
   //|--------+--------+--------+--------+--------+--------|    |--------+--------+--------+--------+--------+--------|
